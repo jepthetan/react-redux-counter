@@ -1,5 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
+import { Counter } from './components/Counter';
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
           className="App-logo"
           alt="logo"
         />
+        <Counter />
       </header>
     </div>
   );
